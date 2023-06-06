@@ -198,7 +198,7 @@ def handleSetCharacterOfUser(data):
     plt.close()
 
 
-def hypotesis_testing(data):
+def handleTestingHypotheses(data):
 
     print('Проверяем гипотезы:')
 
@@ -238,7 +238,7 @@ def main():
     data = handlePrepareData()
     handleIntroductoryAnalysis(data)
     handleSetCharacterOfUser(data)
-    hypotesis_testing(data)
+    handleTestingHypotheses(data)
 
 
 if __name__ == '__main__':
