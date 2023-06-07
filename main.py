@@ -4,7 +4,6 @@ import numpy as np
 
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
-
 def handlePrepareData():
     data = pd.read_csv('games.csv')
 
